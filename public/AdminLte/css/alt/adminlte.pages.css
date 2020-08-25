@@ -212,7 +212,7 @@ a.close.disabled, a.disabled.mailbox-attachment-close {
 .login-page,
 .register-page {
   align-items: center;
-  background: #e9ecef;
+  background: url("AdminLte/img/coiffure.jpg");
   display: flex;
   flex-direction: column;
   height: 100vh;

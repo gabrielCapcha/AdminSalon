@@ -20307,7 +20307,7 @@ html.maximized-card {
 
 .login-logo,
 .register-logo {
-  font-size: 2.1rem;
+  font-size: 40px;
   font-weight: 300;
   margin-bottom: .9rem;
   text-align: center;
@@ -20322,7 +20322,10 @@ html.maximized-card {
 .register-page {
   -ms-flex-align: center;
   align-items: center;
-  background: #e9ecef;
+  background: url("../img/coiffure-3.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
