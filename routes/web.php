@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('/dashboard', 'Dashboard\DashboardController@index');
+Route::get('/user', 'User\UserController@index');
+Route::get('/product', 'Product\Api\ProductApiController@index');
