@@ -11,10 +11,16 @@
 |
 */
 
-Route::get('/', function () {
-    return view('login');
-});
+Route::get('/', 'Auth\LoginController@showLoginForm')->middleware('guest');
 
-Route::get('/dashboard', 'Dashboard\DashboardController@index');
+Route::post('/login', 'Auth\LoginController@login')->name('login');
+Route::post('/logout', 'Auth\LoginController@logout')->name('logout');
+
+Route::get('/dashboard', 'Dashboard\DashboardController@index')->name('dashboard');
 Route::get('/user', 'User\UserController@index');
 Route::get('/product', 'Product\Api\ProductApiController@index');
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

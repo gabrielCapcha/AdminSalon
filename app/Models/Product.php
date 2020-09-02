@@ -18,7 +18,7 @@ class Product extends Model {
 	 */
 	protected $fillable = [
 		//Table Rows
-		'id', 'name', 'code',
+		'id', 'name', 'code', 'register_date', 'price',
 		//Audit
 		'flag_active', 'updated_at', 'deleted_at',
         'created_at'

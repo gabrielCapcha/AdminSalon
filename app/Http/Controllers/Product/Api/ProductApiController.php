@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Product\Api;
 
 use App\Http\Controllers\Controller;
 use App\Entity\Product\ProductLogic;
+use Auth;
 
 class ProductApiController extends Controller
 {
@@ -14,8 +15,13 @@ class ProductApiController extends Controller
      */
     public function index()
     {
-        $user = new ProductLogic();
-        $list = $user->getProductList();
-        return $list;
+        $user = Auth::user();
+        $be = new ProductLogic();
+        $list = $be->getProductList();
+        $jsonResponse = new \stdClass();
+        $jsonResponse->user = $user;
+        $jsonResponse->products = $list;
+        $jsonResponse->tittle = 'Productos';
+        return view('Admin.dashboard', compact('jsonResponse', $jsonResponse));
     }
 }
