@@ -1,1 +1,0 @@
-@extends('Admin.dashboard')

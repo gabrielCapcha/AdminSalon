@@ -18,9 +18,11 @@ Route::post('/logout', 'Auth\LoginController@logout')->name('logout');
 
 Route::get('/dashboard', 'Dashboard\DashboardController@index')->name('dashboard');
 Route::get('/user', 'User\UserController@index');
-Route::get('/product', 'Product\Api\ProductApiController@index');
+Route::get('/product', 'Product\ProductController@index');
+//sales
+Route::get('/new-sale', 'Sales\SaleDocumentController@index');
 
 
-Auth::routes();
+/* Auth::routes(); */
 
 Route::get('/home', 'HomeController@index')->name('home');
