@@ -1,0 +1,17 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../src/background.png");
+
+    /* Full height */
+    width: 100%; 
+    height: auto;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-size: cover;
+}

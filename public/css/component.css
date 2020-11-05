@@ -1,0 +1,250 @@
+/* payment buttons */
+.payment-1-selected {
+    width: 45px;
+    height: 35px;
+    cursor: pointer;
+    content : url('../img/payment-buttons/bo_efectivo_coxhdpi.png');
+  }
+  .payment-1-unselected {
+    width: 45px;
+    height: 35px;
+    cursor: pointer;
+    content : url('../img/payment-buttons/bo_efectivo_nexhdpi.png');
+  }
+  
+  .payment-2-selected {
+    width: 45px;
+    height: 35px;
+    cursor: pointer;
+    content : url('../img/payment-buttons/bo_visa_coxhdpi.png');
+  }
+  .payment-2-unselected {
+    width: 45px;
+    height: 35px;
+    cursor: pointer;
+    content : url('../img/payment-buttons/bo_visa_nexhdpi.png');
+  }
+  
+  .payment-3-selected {
+    width: 45px;
+    height: 35px;
+    cursor: pointer;
+    content : url('../img/payment-buttons/bo_mastercard_coxhdpi.png');
+  }
+  .payment-3-unselected {
+    width: 45px;
+    height: 35px;
+    cursor: pointer;
+    content : url('../img/payment-buttons/bo_mastercard_nexhdpi.png');
+  }
+  
+  .payment-6-selected {
+    width: 45px;
+    height: 35px;
+    cursor: pointer;
+    content : url('../img/payment-buttons/bo_tarjeta_coxhdpi.png');
+  }
+  .payment-6-unselected {
+    width: 45px;
+    height: 35px;
+    cursor: pointer;
+    content : url('../img/payment-buttons/bo_tarjeta_nexhdpi.png');
+  }
+  
+  .payment-8-selected {
+    width: 45px;
+    height: 35px;
+    cursor: pointer;
+    content : url('../img/payment-buttons/bo_credito_coxhdpi.png');
+  }
+  .payment-8-unselected {
+    width: 45px;
+    height: 35px;
+    cursor: pointer;
+    content : url('../img/payment-buttons/bo_credito_nexhdpi.png');
+  }
+  
+  .payment-9-selected {
+    width: 45px;
+    height: 35px;
+    cursor: pointer;
+    content : url('../img/payment-buttons/bo_letras_coxhdpi.png');
+  }
+  .payment-9-unselected {
+    width: 45px;
+    height: 35px;
+    cursor: pointer;
+    content : url('../img/payment-buttons/bo_letras_nexhdpi.png');
+  }
+  
+  /* NEWS */
+  
+  .payment-10-selected {
+    width: 45px;
+    height: 35px;
+    cursor: pointer;
+    content : url('../img/payment-buttons/ic_izipay_on.svg');
+  }
+  .payment-10-unselected {
+    width: 45px;
+    height: 35px;
+    cursor: pointer;
+    content : url('../img/payment-buttons/ic_izipay_off.svg');
+  }
+  
+  .payment-11-selected {
+    width: 45px;
+    height: 35px;
+    cursor: pointer;
+    content : url('../img/payment-buttons/ic_ubereats_on.svg');
+  }
+  .payment-11-unselected {
+    width: 45px;
+    height: 35px;
+    cursor: pointer;
+    content : url('../img/payment-buttons/ic_ubereats_off.svg');
+  }
+  
+  .payment-12-selected {
+    width: 45px;
+    height: 35px;
+    cursor: pointer;
+    content : url('../img/payment-buttons/ic_glovo_on.svg');
+  }
+  .payment-12-unselected {
+    width: 45px;
+    height: 35px;
+    cursor: pointer;
+    content : url('../img/payment-buttons/ic_glovo_off.svg');
+  }
+  
+  .payment-13-selected {
+    width: 45px;
+    height: 35px;
+    cursor: pointer;
+    content : url('../img/payment-buttons/ic_rappi_on.svg');
+  }
+  .payment-13-unselected {
+    width: 45px;
+    height: 35px;
+    cursor: pointer;
+    content : url('../img/payment-buttons/ic_rappi_off.svg');
+  }
+  
+  .payment-14-selected {
+    width: 45px;
+    height: 35px;
+    cursor: pointer;
+    content : url('../img/payment-buttons/ic_vendemas_on.svg');
+  }
+  .payment-14-unselected {
+    width: 45px;
+    height: 35px;
+    cursor: pointer;
+    content : url('../img/payment-buttons/ic_vendemas_off.svg');
+  }
+  
+  .payment-15-selected {
+    width: 45px;
+    height: 35px;
+    cursor: pointer;
+    content : url('../img/payment-buttons/bo_lukita_coxhdpi.png');
+  }
+  .payment-15-unselected {
+    width: 45px;
+    height: 35px;
+    cursor: pointer;
+    content : url('../img/payment-buttons/bo_lukita_nexhdpi.png');
+  }
+  
+  .payment-16-selected {
+    width: 45px;
+    height: 35px;
+    cursor: pointer;
+    content : url('../img/payment-buttons/bo_yape_coxhdpi.png');
+  }
+  .payment-16-unselected {
+    width: 45px;
+    height: 35px;
+    cursor: pointer;
+    content : url('../img/payment-buttons/bo_yape_nexhdpi.png');
+  }
+  
+  .payment-17-selected {
+    width: 45px;
+    height: 35px;
+    cursor: pointer;
+    content : url('../img/payment-buttons/bo_tunki_coxhdpi.png');
+  }
+  .payment-17-unselected {
+    width: 45px;
+    height: 35px;
+    cursor: pointer;
+    content : url('../img/payment-buttons/bo_tunki_nexhdpi.png');
+  }
+  
+  .payment-18-selected {
+    width: 45px;
+    height: 35px;
+    cursor: pointer;
+    content : url('../img/payment-buttons/bo_american_express_coxhdpi.png');
+  }
+  .payment-18-unselected {
+    width: 45px;
+    height: 35px;
+    cursor: pointer;
+    content : url('../img/payment-buttons/bo_american_express_nexhdpi.png');
+  }
+  
+  .payment-19-selected {
+    width: 45px;
+    height: 35px;
+    cursor: pointer;
+    content : url('../img/payment-buttons/bo_plin_coxhdpi.png');
+  }
+  .payment-19-unselected {
+    width: 45px;
+    height: 35px;
+    cursor: pointer;
+    content : url('../img/payment-buttons/bo_plin_nexhdpi.png');
+  }
+  .pay-button {
+    background: url('../img/pay_btn.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+  }
+  .delete-products {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+  }
+  .static-table-th {
+    width: 66.7px;
+    padding-left: 0px;
+  }
+  .table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .new-sale-custom-left {
+    /* border: 2px solid gray; */
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    background: #f0e68c;
+  }
+  .static-table-td {
+    width: 66.7px;
+    word-break:break-word;
+    color: #ffffff;
+  }
+  .static-table-td-input {
+    width: 66.7px;
+    word-break:break-word;
+    color: #000000;
+  }

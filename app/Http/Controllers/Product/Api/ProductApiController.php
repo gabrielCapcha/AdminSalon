@@ -19,11 +19,7 @@ class ProductApiController extends Controller
         $user = Auth::user();
         $be = new ProductLogic();
         $list = $be->getProductList();
-        $jsonResponse = new \stdClass();
-        $jsonResponse->user = $user;
-        $jsonResponse->products = $list;
-        $jsonResponse->tittle = 'Productos';
-        return  json_encode($jsonResponse);
+        return  $list;
     }
     public function getObjectById($id)
     {

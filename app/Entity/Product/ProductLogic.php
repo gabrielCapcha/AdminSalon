@@ -12,7 +12,19 @@ class ProductLogic
         $list = Product::select(Product::TABLE_NAME . '.*')
             ->whereNull(Product::TABLE_NAME . '.deleted_at')
             ->get();
-        return $list;
+        $services = [];
+        $products = [];
+        foreach ($list as $key => $value) {
+            if ($value['category'] == 1) {
+                array_push($services, $value);
+            } else {
+                array_push($products, $value);
+            }
+        }
+        $jsonResponse = new \stdClass();
+        $jsonResponse->$products = $products;
+        $jsonResponse->$services = $services;
+        return $jsonResponse;
     }
     public function getProductById($id)
     {

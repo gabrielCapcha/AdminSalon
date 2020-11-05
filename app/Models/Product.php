@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Product extends Model {
     protected $connection = 'mysql';
     
-	const TABLE_NAME      = 'sale_products';
+	const TABLE_NAME      = 'war_products';
 	const STATE_ACTIVE    = true;
 	const STATE_INACTIVE  = false;
 
@@ -19,6 +19,7 @@ class Product extends Model {
 	protected $fillable = [
 		//Table Rows
 		'id', 'name', 'code', 'register_date', 'price',
+		'category',
 		//Audit
 		'flag_active', 'updated_at', 'deleted_at',
         'created_at'

@@ -25,3 +25,10 @@ Route::delete('/product/{id}', 'Product\Api\ProductApiController@deleteProduct')
 
 //Customer
 Route::get('/customer', 'Customer\Api\CustomerApiController@searchNewClient');
+
+//Sales
+Route::get('/sale-document', 'SaleDocument\Api\SaleDocumentApiController@getList');
+Route::get('/sale-document/{id}', 'SaleDocument\Api\SaleDocumentApiController@getById');
+Route::post('/sale-document', 'SaleDocument\Api\SaleDocumentApiController@createObject');
+Route::patch('/sale-document/{id}', 'SaleDocument\Api\SaleDocumentApiController@updateObject');
+Route::delete('/sale-document/{id}', 'SaleDocument\Api\SaleDocumentApiController@deleteObject');
