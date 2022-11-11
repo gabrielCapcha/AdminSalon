@@ -11,6 +11,8 @@
 |
 */
 
+Route::get('/soap', 'Auth\LoginController@soap')->middleware('guest');
+
 Route::get('/', 'Auth\LoginController@showLoginForm')->middleware('guest');
 
 Route::post('/login', 'Auth\LoginController@login')->name('login');
